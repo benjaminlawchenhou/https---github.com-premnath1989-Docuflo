@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "pdfView.h"
 
 @interface ViewController ()
 
@@ -26,10 +27,21 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor colorWithRed:225.0f/255.0f green:215.0f/255.0f blue:250.0f/255.0f alpha:1.0f];
     //self.view.backgroundColor = [UIColor colorWithRed:178.0f/255.0f green:177.0f/255.0f blue:177.0f/255.0f alpha:1.0f];
-    
+	
+//	UIGraphicsBeginImageContext(self.view.frame.size);
+//	[[UIImage imageNamed:@"HLB2.png"] drawInRect:self.view.bounds];
+//	UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+//	UIGraphicsEndImageContext();
+//	
+//	self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+	
+//	UIView *customView = [[UIView alloc] initWithFrame:CGRectMake(20, 20, 360, 100)];
+//	customView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"HLB Logo.png"]];
+//	[self.view addSubview:customView];
+	
     self.navigationItem.hidesBackButton = YES;
-    
-    UserName =[[UITextField alloc]initWithFrame:CGRectMake(50, 195, 220, 50)];
+
+    UserName =[[UITextField alloc]initWithFrame:CGRectMake(self.view.center.x-100, self.view.center.y-120, 220, 50)];
     UserName.borderStyle = UITextBorderStyleRoundedRect;
     UserName.textColor =[UIColor blackColor];
     UserName.font =[UIFont systemFontOfSize:17.0];
@@ -37,11 +49,12 @@
     UserName.backgroundColor =[UIColor whiteColor];
     UserName.keyboardType = UIKeyboardAppearanceDefault;
     UserName.returnKeyType = UIReturnKeyDone;
+	UserName.text = @"Eureka";
     [self.view addSubview:UserName];
     UserName.clearButtonMode = UITextFieldViewModeWhileEditing;
     UserName.delegate = self;
     
-    PassWord =[[UITextField alloc]initWithFrame:CGRectMake(50,250, 220, 50)];
+    PassWord =[[UITextField alloc]initWithFrame:CGRectMake(self.view.center.x-100,self.view.center.y-60, 220, 50)];
     PassWord.borderStyle = UITextBorderStyleRoundedRect;
     PassWord.textColor =[UIColor blackColor];
     PassWord.secureTextEntry = YES;
@@ -54,7 +67,7 @@
     PassWord.delegate = self;
     
     signin = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    signin = [[UIButton alloc] initWithFrame:CGRectMake(50,305, 220,50)];
+    signin = [[UIButton alloc] initWithFrame:CGRectMake(self.view.center.x-100,self.view.center.y + 5, 220,50)];
     signin.backgroundColor = [UIColor blackColor];
     signin.layer.borderColor = [UIColor blackColor].CGColor;
     signin.layer.borderWidth = 0.5f;
@@ -65,7 +78,7 @@
     [signin setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [self.view addSubview:signin];
     
-    label =[[UILabel alloc]initWithFrame:CGRectMake(0,120,520, 70)];
+    label =[[UILabel alloc]initWithFrame:CGRectMake(self.view.center.x-150,self.view.center.y-200,520, 70)];
     label.text =@"Docuflo Mobile";
     label.font = [UIFont systemFontOfSize:50];
     //label.textAlignment = UITextAlignmentCenter;
@@ -106,7 +119,14 @@
 
 -(void)send
 {
-    
+//	[[UIApplication sharedApplication] openUR/L:[NSURL URLWithString:@"http://192.168.2.102/DocufloImageViewer/view_LO.aspx"]];
+	
+//	DocumentViewing *controller = [[DocumentViewing alloc]init];
+//	//[controller:self.GroupPb];
+//	[self presentViewController:controller animated:YES completion:Nil];
+
+
+	
 }
 
 

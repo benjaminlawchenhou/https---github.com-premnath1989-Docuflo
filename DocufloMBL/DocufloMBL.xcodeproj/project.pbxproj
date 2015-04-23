@@ -14,6 +14,9 @@
 		6A9324D91AE48CFA00C93BFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A9324D81AE48CFA00C93BFF /* Images.xcassets */; };
 		6A9324DC1AE48CFA00C93BFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A9324DA1AE48CFA00C93BFF /* LaunchScreen.xib */; };
 		6A9324E81AE48CFA00C93BFF /* DocufloMBLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9324E71AE48CFA00C93BFF /* DocufloMBLTests.m */; };
+		C34F87941AE8D72200ADDA08 /* pdfView.m in Sources */ = {isa = PBXBuildFile; fileRef = C34F87931AE8D72200ADDA08 /* pdfView.m */; };
+		C34F87981AE8EF9700ADDA08 /* HLB1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C34F87971AE8EF9700ADDA08 /* HLB1.jpg */; };
+		C34F879A1AE8F07300ADDA08 /* HLB Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C34F87991AE8F07300ADDA08 /* HLB Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		6A9324E11AE48CFA00C93BFF /* DocufloMBLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocufloMBLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9324E61AE48CFA00C93BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A9324E71AE48CFA00C93BFF /* DocufloMBLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocufloMBLTests.m; sourceTree = "<group>"; };
+		C34F87921AE8D72200ADDA08 /* pdfView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pdfView.h; sourceTree = "<group>"; };
+		C34F87931AE8D72200ADDA08 /* pdfView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pdfView.m; sourceTree = "<group>"; };
+		C34F87971AE8EF9700ADDA08 /* HLB1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HLB1.jpg; sourceTree = "<group>"; };
+		C34F87991AE8F07300ADDA08 /* HLB Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HLB Logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,8 @@
 		6A9324CA1AE48CFA00C93BFF /* DocufloMBL */ = {
 			isa = PBXGroup;
 			children = (
+				C34F87991AE8F07300ADDA08 /* HLB Logo.png */,
+				C34F87971AE8EF9700ADDA08 /* HLB1.jpg */,
 				6A9324CF1AE48CFA00C93BFF /* AppDelegate.h */,
 				6A9324D01AE48CFA00C93BFF /* AppDelegate.m */,
 				6A9324D21AE48CFA00C93BFF /* ViewController.h */,
@@ -88,6 +97,8 @@
 				6A9324D51AE48CFA00C93BFF /* Main.storyboard */,
 				6A9324D81AE48CFA00C93BFF /* Images.xcassets */,
 				6A9324DA1AE48CFA00C93BFF /* LaunchScreen.xib */,
+				C34F87921AE8D72200ADDA08 /* pdfView.h */,
+				C34F87931AE8D72200ADDA08 /* pdfView.m */,
 				6A9324CB1AE48CFA00C93BFF /* Supporting Files */,
 			);
 			path = DocufloMBL;
@@ -201,6 +212,8 @@
 			files = (
 				6A9324D71AE48CFA00C93BFF /* Main.storyboard in Resources */,
 				6A9324DC1AE48CFA00C93BFF /* LaunchScreen.xib in Resources */,
+				C34F87981AE8EF9700ADDA08 /* HLB1.jpg in Resources */,
+				C34F879A1AE8F07300ADDA08 /* HLB Logo.png in Resources */,
 				6A9324D91AE48CFA00C93BFF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A9324D41AE48CFA00C93BFF /* ViewController.m in Sources */,
+				C34F87941AE8D72200ADDA08 /* pdfView.m in Sources */,
 				6A9324D11AE48CFA00C93BFF /* AppDelegate.m in Sources */,
 				6A9324CE1AE48CFA00C93BFF /* main.m in Sources */,
 			);
