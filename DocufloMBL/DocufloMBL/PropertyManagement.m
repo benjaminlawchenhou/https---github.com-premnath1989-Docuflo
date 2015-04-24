@@ -65,7 +65,7 @@
     
     UILabel*label1;
     label1 = [[UILabel alloc] initWithFrame:CGRectMake(11, 102, 519, 50)];
-    label1.text =@" APPLICATION FORM            RECEIVED                     4/22/2015                      WORKFLOW/JACOB ";
+    label1.text =@" APPLICATION FORM            RECEIVED                     4/22/2015                      WORKFLOW ";
     label1.font =[UIFont systemFontOfSize:11];
     label1.textColor = [UIColor whiteColor];
     label1.backgroundColor=[[UIColor grayColor] colorWithAlphaComponent:0.5f];
@@ -73,7 +73,7 @@
     
     UILabel*label2;
     label2 = [[UILabel alloc] initWithFrame:CGRectMake(11, 153, 519, 50)];
-    label2.text =@" CUSTOMER IC                    RECEIVED                      4/22/2015                       WORKFLOW/JACOB ";
+    label2.text =@" CUSTOMER IC                    RECEIVED                      4/22/2015                       WORKFLOW ";
     label2.font =[UIFont systemFontOfSize:11];
     label2.textColor = [UIColor whiteColor];
     label2.backgroundColor=[[UIColor grayColor] colorWithAlphaComponent:0.5f];
@@ -81,7 +81,7 @@
     
     UILabel*label3;
     label3 = [[UILabel alloc] initWithFrame:CGRectMake(11, 204, 519, 50)];
-    label3.text =@" ID GUARANTOR                   RECEIVED                     4/23/2015                        WORKFLOW/JACOB ";
+    label3.text =@" ID GUARANTOR                   RECEIVED                     4/23/2015                        WORKFLOW ";
     label3.font =[UIFont systemFontOfSize:11];
     label3.textColor = [UIColor whiteColor];
     label3.backgroundColor=[[UIColor grayColor] colorWithAlphaComponent:0.5f];
@@ -89,7 +89,7 @@
     
     UILabel*label4;
     label4 = [[UILabel alloc] initWithFrame:CGRectMake(11, 255, 519, 50)];
-    label4.text =@" APPLICATION FORM            RECEIVED                     4/22/2015                      WORKFLOW/JACOB ";
+    label4.text =@" C-OFFER PURCHASE           RECEIVED                    4/22/2015                       WORKFLOW ";
     label4.font =[UIFont systemFontOfSize:11];
     label4.textColor = [UIColor whiteColor];
     label4.backgroundColor=[[UIColor grayColor] colorWithAlphaComponent:0.5f];
@@ -97,7 +97,7 @@
     
     UILabel*label5;
     label5 = [[UILabel alloc] initWithFrame:CGRectMake(11, 306, 519, 50)];
-    label5.text =@" CUSTOMER IC                    RECEIVED                      4/22/2015                       WORKFLOW/JACOB ";
+    label5.text =@" STATEMENT 6 MONTHS        RECEIVED                     4/22/2015                      WORKFLOW ";
     label5.font =[UIFont systemFontOfSize:11];
     label5.textColor = [UIColor whiteColor];
     label5.backgroundColor=[[UIColor grayColor] colorWithAlphaComponent:0.5f];
@@ -106,7 +106,7 @@
     
     UILabel*label6;
     label6 = [[UILabel alloc] initWithFrame:CGRectMake(11, 357, 519, 50)];
-    label6.text =@" ID GUARANTOR                   RECEIVED                     4/23/2015                        WORKFLOW/JACOB ";
+    label6.text =@" FORM 9/24/49                        RECEIVED                    4/23/2015                      WORKFLOW ";
     label6.font =[UIFont systemFontOfSize:11];
     label6.textColor = [UIColor whiteColor];
     label6.backgroundColor=[[UIColor grayColor] colorWithAlphaComponent:0.5f];
@@ -114,7 +114,7 @@
     
     UILabel*label7;
     label7 = [[UILabel alloc] initWithFrame:CGRectMake(11, 408, 519, 50)];
-    label7.text =@" CUSTOMER IC                    RECEIVED                      4/22/2015                       WORKFLOW/JACOB ";
+    label7.text =@" SALARY CREDITING              RECEIVED                     4/22/2015                       WORKFLOW ";
     label7.font =[UIFont systemFontOfSize:11];
     label7.textColor = [UIColor whiteColor];
     label7.backgroundColor=[[UIColor grayColor] colorWithAlphaComponent:0.5f];
@@ -123,11 +123,12 @@
     
     UILabel*label8;
     label8 = [[UILabel alloc] initWithFrame:CGRectMake(11, 459, 519, 50)];
-    label8.text =@" ID GUARANTOR                   RECEIVED                     4/23/2015                        WORKFLOW/JACOB ";
+    label8.text =@" INCOME TAX FORM               RECEIVED                     4/23/2015                        WORKFLOW/ ";
     label8.font =[UIFont systemFontOfSize:11];
     label8.textColor = [UIColor whiteColor];
     label8.backgroundColor=[[UIColor grayColor] colorWithAlphaComponent:0.5f];
     [self.view addSubview:label8];
+    
     
     label1.userInteractionEnabled = YES;
     UITapGestureRecognizer *tapGesture1 =

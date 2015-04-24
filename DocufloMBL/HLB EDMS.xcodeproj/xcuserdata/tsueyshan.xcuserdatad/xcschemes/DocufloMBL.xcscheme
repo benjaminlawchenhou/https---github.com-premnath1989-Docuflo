@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6A9324C71AE48CFA00C93BFF"
-               BuildableName = "DocufloMBL.app"
-               BlueprintName = "DocufloMBL"
+               BuildableName = "HLB EDMS.app"
+               BlueprintName = "HLB EDMS"
                ReferencedContainer = "container:HLB EDMS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -57,8 +57,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6A9324C71AE48CFA00C93BFF"
-            BuildableName = "DocufloMBL.app"
-            BlueprintName = "DocufloMBL"
+            BuildableName = "HLB EDMS.app"
+            BlueprintName = "HLB EDMS"
             ReferencedContainer = "container:HLB EDMS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -77,8 +77,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6A9324C71AE48CFA00C93BFF"
-            BuildableName = "DocufloMBL.app"
-            BlueprintName = "DocufloMBL"
+            BuildableName = "HLB EDMS.app"
+            BlueprintName = "HLB EDMS"
             ReferencedContainer = "container:HLB EDMS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -96,8 +96,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6A9324C71AE48CFA00C93BFF"
-            BuildableName = "DocufloMBL.app"
-            BlueprintName = "DocufloMBL"
+            BuildableName = "HLB EDMS.app"
+            BlueprintName = "HLB EDMS"
             ReferencedContainer = "container:HLB EDMS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

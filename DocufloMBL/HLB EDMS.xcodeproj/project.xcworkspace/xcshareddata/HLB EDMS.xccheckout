@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>4F985350-280D-4D66-96A0-2D08F7C5EA95</string>
 	<key>IDESourceControlProjectName</key>
-	<string>HLB EDMS</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>8B7B102CFB73A299293C2975D28B058EB65CE29D</key>
 		<string>https://github.com/benjaminlawchenhou/https---github.com-premnath1989-Docuflo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>DocufloMBL/HLB EDMS.xcodeproj</string>
+	<string>DocufloMBL/HLB EDMS.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8B7B102CFB73A299293C2975D28B058EB65CE29D</key>

@@ -57,7 +57,7 @@
 		6A3364741AE9D11700814897 /* PropertyManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyManagement.m; sourceTree = "<group>"; };
 		6A3364751AE9D11700814897 /* TotalFinance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalFinance.h; sourceTree = "<group>"; };
 		6A3364761AE9D11700814897 /* TotalFinance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalFinance.m; sourceTree = "<group>"; };
-		6A9324C81AE48CFA00C93BFF /* DocufloMBL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocufloMBL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A9324C81AE48CFA00C93BFF /* HLB EDMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HLB EDMS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9324CC1AE48CFA00C93BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A9324CD1AE48CFA00C93BFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A9324CF1AE48CFA00C93BFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		6A9324C91AE48CFA00C93BFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A9324C81AE48CFA00C93BFF /* DocufloMBL.app */,
+				6A9324C81AE48CFA00C93BFF /* HLB EDMS.app */,
 				6A9324E11AE48CFA00C93BFF /* DocufloMBLTests.xctest */,
 			);
 			name = Products;
@@ -191,9 +191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6A9324C71AE48CFA00C93BFF /* DocufloMBL */ = {
+		6A9324C71AE48CFA00C93BFF /* HLB EDMS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A9324EB1AE48CFA00C93BFF /* Build configuration list for PBXNativeTarget "DocufloMBL" */;
+			buildConfigurationList = 6A9324EB1AE48CFA00C93BFF /* Build configuration list for PBXNativeTarget "HLB EDMS" */;
 			buildPhases = (
 				6A9324C41AE48CFA00C93BFF /* Sources */,
 				6A9324C51AE48CFA00C93BFF /* Frameworks */,
@@ -203,9 +203,9 @@
 			);
 			dependencies = (
 			);
-			name = DocufloMBL;
+			name = "HLB EDMS";
 			productName = DocufloMBL;
-			productReference = 6A9324C81AE48CFA00C93BFF /* DocufloMBL.app */;
+			productReference = 6A9324C81AE48CFA00C93BFF /* HLB EDMS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6A9324E01AE48CFA00C93BFF /* DocufloMBLTests */ = {
@@ -237,6 +237,7 @@
 				TargetAttributes = {
 					6A9324C71AE48CFA00C93BFF = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 2YT8E2D9X6;
 					};
 					6A9324E01AE48CFA00C93BFF = {
 						CreatedOnToolsVersion = 6.2;
@@ -257,7 +258,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6A9324C71AE48CFA00C93BFF /* DocufloMBL */,
+				6A9324C71AE48CFA00C93BFF /* HLB EDMS */,
 				6A9324E01AE48CFA00C93BFF /* DocufloMBLTests */,
 			);
 		};
@@ -324,7 +325,7 @@
 /* Begin PBXTargetDependency section */
 		6A9324E31AE48CFA00C93BFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6A9324C71AE48CFA00C93BFF /* DocufloMBL */;
+			target = 6A9324C71AE48CFA00C93BFF /* HLB EDMS */;
 			targetProxy = 6A9324E21AE48CFA00C93BFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -431,10 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DocufloMBL/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -442,10 +446,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DocufloMBL/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -495,7 +502,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A9324EB1AE48CFA00C93BFF /* Build configuration list for PBXNativeTarget "DocufloMBL" */ = {
+		6A9324EB1AE48CFA00C93BFF /* Build configuration list for PBXNativeTarget "HLB EDMS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A9324EC1AE48CFA00C93BFF /* Debug */,
