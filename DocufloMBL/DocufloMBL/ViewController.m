@@ -28,18 +28,36 @@
     self.view.backgroundColor = [UIColor colorWithRed:225.0f/255.0f green:215.0f/255.0f blue:250.0f/255.0f alpha:1.0f];
     //self.view.backgroundColor = [UIColor colorWithRed:178.0f/255.0f green:177.0f/255.0f blue:177.0f/255.0f alpha:1.0f];
 	
-//	UIGraphicsBeginImageContext(self.view.frame.size);
-//	[[UIImage imageNamed:@"HLB2.png"] drawInRect:self.view.bounds];
-//	UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-//	UIGraphicsEndImageContext();
-//	
-//	self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+    
+    
+    UIGraphicsBeginImageContext(CGSizeMake(1900, 1524));
+ //   [drawImage.image drawInRect:CGRectMake(0, 0, 560, 660)];
+//
+	[[UIImage imageNamed:@"hll.jpg"] drawInRect:self.view.bounds];
+	UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    
+    
+    
+	UIGraphicsEndImageContext();
 	
-//	UIView *customView = [[UIView alloc] initWithFrame:CGRectMake(20, 20, 360, 100)];
-//	customView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"HLB Logo.png"]];
-//	[self.view addSubview:customView];
+	self.view.backgroundColor = [UIColor colorWithPatternImage:image];
 	
     self.navigationItem.hidesBackButton = YES;
+    
+    UIView *customView = [[UIView alloc] initWithFrame:CGRectMake(self.view.center.x-35, self.view.center.y-200, 72, 72)];
+    customView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"hlp.png"]];
+    [self.view addSubview:customView];
+    
+    
+    UILabel*label1;
+    label1 = [[UILabel alloc] initWithFrame:CGRectMake(self.view.center.x-130, self.view.center.y-250, 519, 50)];
+    label1.text =@"EDMS PORTAL";
+    label1.font =[UIFont fontWithName:@"Helvetica-Bold" size:40];
+    label1.textColor = [UIColor colorWithRed:228.0f/255.0f green:24.0f/255.0f blue:34.0f/255.0f alpha:1.0f];
+    label1.backgroundColor=[UIColor clearColor];
+    [self.view addSubview:label1];
+
+
 
     UserName =[[UITextField alloc]initWithFrame:CGRectMake(self.view.center.x-100, self.view.center.y-120, 220, 50)];
     UserName.borderStyle = UITextBorderStyleRoundedRect;
@@ -79,7 +97,7 @@
     [self.view addSubview:signin];
     
     label =[[UILabel alloc]initWithFrame:CGRectMake(self.view.center.x-150,self.view.center.y-200,520, 70)];
-    label.text =@"Docuflo Mobile";
+    label.text =@"";
     label.font = [UIFont systemFontOfSize:50];
     //label.textAlignment = UITextAlignmentCenter;
     label.textColor = [UIColor blackColor];//[UIColor colorWithRed:251.0f/255.0f green:238.0f/255.0f blue:215.0f/255.0f alpha:1.0f];
@@ -121,9 +139,9 @@
 {
 //	[[UIApplication sharedApplication] openUR/L:[NSURL URLWithString:@"http://192.168.2.102/DocufloImageViewer/view_LO.aspx"]];
 	
-//	DocumentViewing *controller = [[DocumentViewing alloc]init];
-//	//[controller:self.GroupPb];
-//	[self presentViewController:controller animated:YES completion:Nil];
+	DocumentViewing *controller = [[DocumentViewing alloc]init];
+	//[controller:self.GroupPb];
+	[self presentViewController:controller animated:YES completion:Nil];
 
 
 	

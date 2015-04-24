@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DocumentViewing.h
 //  DocufloMBL
 //
 //  Created by Premnath on 4/20/15.
@@ -8,17 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
-#import "DocumentViewing.h"
+#import "Mortage.h"
 
-@interface ViewController : UIViewController<UIScrollViewDelegate,UITextFieldDelegate,UIWebViewDelegate>
+@interface DocumentViewing : UIViewController<UIScrollViewDelegate,UITextFieldDelegate,UIWebViewDelegate>
 {
     UITextField *UserName;
     UITextField *PassWord;
-    UIButton *signin;
+    UIButton *mortage;
     UILabel *label;
     UIWebView *webView;
     UIScrollView*scrollView;
-    UIButton*loginButton;
+    UIButton*loginButton, *logOut;
+    Mortage *controllerMortage;
 
 }
 
@@ -27,8 +28,9 @@
 @property(nonatomic,retain)UIWebView *webView;
 @property(nonatomic,retain)UITextField *UserName;
 @property(nonatomic,retain)UITextField *PassWord;
-@property(nonatomic,retain)UIButton *signin;
+@property(nonatomic,retain)UIButton *product,*mortage,*txxxx, *logOut;
 @property(nonatomic,copy)UILabel *label;
+-(void) Login:(NSString *)username :(NSString *)password;
 
 
 
