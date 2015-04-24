@@ -125,7 +125,6 @@
 				6A9324D01AE48CFA00C93BFF /* AppDelegate.m */,
 				6A9324D21AE48CFA00C93BFF /* ViewController.h */,
 				6A9324D31AE48CFA00C93BFF /* ViewController.m */,
-				6A33646A1AE9D11700814897 /* Default-Landscape~ipad.png */,
 				6A33646B1AE9D11700814897 /* DocumentViewing.h */,
 				6A33646C1AE9D11700814897 /* DocumentViewing.m */,
 				6A3364711AE9D11700814897 /* Mortage.h */,
@@ -173,6 +172,7 @@
 		C34F87B01AE9EFF900ADDA08 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				6A33646A1AE9D11700814897 /* Default-Landscape~ipad.png */,
 				C34F87B91AE9F03B00ADDA08 /* tradeFinance.png */,
 				C34F87BB1AE9F04F00ADDA08 /* home.png */,
 				C34F87B71AE9F03400ADDA08 /* PropertyManagement.png */,
@@ -244,7 +244,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6A9324C31AE48CFA00C93BFF /* Build configuration list for PBXProject "DocufloMBL" */;
+			buildConfigurationList = 6A9324C31AE48CFA00C93BFF /* Build configuration list for PBXProject "HLB EDMS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -486,7 +486,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6A9324C31AE48CFA00C93BFF /* Build configuration list for PBXProject "DocufloMBL" */ = {
+		6A9324C31AE48CFA00C93BFF /* Build configuration list for PBXProject "HLB EDMS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A9324E91AE48CFA00C93BFF /* Debug */,
