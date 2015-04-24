@@ -122,10 +122,48 @@
     label8.backgroundColor=[UIColor grayColor];
     [self.view addSubview:label8];
 
+ 
+    
+    label1.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tapGesture1 =
+    [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelTap1)];
+    [label1 addGestureRecognizer:tapGesture1];
+    
+    label2.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tapGesture2 =
+    [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelTap2)];
+    [label2 addGestureRecognizer:tapGesture2];
+    
+    label3.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tapGesture3 =
+    [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelTap3)];
+    [label3 addGestureRecognizer:tapGesture3];
+    
+    label4.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tapGesture4 =
+    [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelTap4)];
+    [label4 addGestureRecognizer:tapGesture4];
+    
+    label5.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tapGesture5 =
+    [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelTap5)];
+    [label5 addGestureRecognizer:tapGesture5];
+    
+    label6.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tapGesture6 =
+    [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelTap6)];
+    [label6 addGestureRecognizer:tapGesture6];
+    
+    label7.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tapGesture7 =
+    [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelTap7)];
+    [label7 addGestureRecognizer:tapGesture7];
+    
     label8.userInteractionEnabled = YES;
-    UITapGestureRecognizer *tapGesture =
-    [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelTap)];
-    [label8 addGestureRecognizer:tapGesture];
+    UITapGestureRecognizer *tapGesture8 =
+    [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelTap8)];
+    [label8 addGestureRecognizer:tapGesture8];
+
 
     
 
@@ -136,17 +174,103 @@
     [self dismissModalViewControllerAnimated:YES];
 }
 
-- (void) labelTap
+- (void) labelTap1
 {
     //[self dismissModalViewControllerAnimated:YES];
     
     
     NSUserDefaults *pdfURL = [NSUserDefaults standardUserDefaults];
-    [pdfURL setObject:@"http://192.168.0.103/mobiledoc/hf00001.pdf" forKey:@"URL"];
+    [pdfURL setObject:@"http://192.168.0.103/mobiledoc/mg000001.pdf" forKey:@"URL"];
     
     pdfView *viewController = [[pdfView alloc] init];
     [self presentViewController:viewController animated:YES completion:nil];
 }
+
+- (void) labelTap2
+{
+    //[self dismissModalViewControllerAnimated:YES];
+    
+    
+    NSUserDefaults *pdfURL = [NSUserDefaults standardUserDefaults];
+    [pdfURL setObject:@"http://192.168.0.103/mobiledoc/mg000002.pdf" forKey:@"URL"];
+    
+    pdfView *viewController = [[pdfView alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+
+- (void) labelTap3
+{
+    //[self dismissModalViewControllerAnimated:YES];
+    
+    
+    NSUserDefaults *pdfURL = [NSUserDefaults standardUserDefaults];
+    [pdfURL setObject:@"http://192.168.0.103/mobiledoc/mg000003.pdf" forKey:@"URL"];
+    
+    pdfView *viewController = [[pdfView alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+
+- (void) labelTap4
+{
+    //[self dismissModalViewControllerAnimated:YES];
+    
+    
+    NSUserDefaults *pdfURL = [NSUserDefaults standardUserDefaults];
+    [pdfURL setObject:@"http://192.168.0.103/mobiledoc/mg000004.pdf" forKey:@"URL"];
+    
+    pdfView *viewController = [[pdfView alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+
+- (void) labelTap5
+{
+    //[self dismissModalViewControllerAnimated:YES];
+    
+    
+    NSUserDefaults *pdfURL = [NSUserDefaults standardUserDefaults];
+    [pdfURL setObject:@"http://192.168.0.103/mobiledoc/mg000005.pdf" forKey:@"URL"];
+    
+    pdfView *viewController = [[pdfView alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+
+- (void) labelTap6
+{
+    //[self dismissModalViewControllerAnimated:YES];
+    
+    
+    NSUserDefaults *pdfURL = [NSUserDefaults standardUserDefaults];
+    [pdfURL setObject:@"http://192.168.0.103/mobiledoc/mg000006.pdf" forKey:@"URL"];
+    
+    pdfView *viewController = [[pdfView alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+
+- (void) labelTap7
+{
+    //[self dismissModalViewControllerAnimated:YES];
+    
+    
+    NSUserDefaults *pdfURL = [NSUserDefaults standardUserDefaults];
+    [pdfURL setObject:@"http://192.168.0.103/mobiledoc/mg000007.pdf" forKey:@"URL"];
+    
+    pdfView *viewController = [[pdfView alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+
+- (void) labelTap8
+{
+    //[self dismissModalViewControllerAnimated:YES];
+    
+    
+    NSUserDefaults *pdfURL = [NSUserDefaults standardUserDefaults];
+    [pdfURL setObject:@"http://192.168.0.103/mobiledoc/mg000008.pdf" forKey:@"URL"];
+    
+    pdfView *viewController = [[pdfView alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+
+
 
 
 @end
