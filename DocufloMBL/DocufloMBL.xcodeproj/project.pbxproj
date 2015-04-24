@@ -25,6 +25,12 @@
 		6A9324E81AE48CFA00C93BFF /* DocufloMBLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9324E71AE48CFA00C93BFF /* DocufloMBLTests.m */; };
 		C34F87941AE8D72200ADDA08 /* pdfView.m in Sources */ = {isa = PBXBuildFile; fileRef = C34F87931AE8D72200ADDA08 /* pdfView.m */; };
 		C34F879A1AE8F07300ADDA08 /* HLB Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C34F87991AE8F07300ADDA08 /* HLB Logo.png */; };
+		C34F87B21AE9F01100ADDA08 /* log_out.png in Resources */ = {isa = PBXBuildFile; fileRef = C34F87B11AE9F01100ADDA08 /* log_out.png */; };
+		C34F87B41AE9F01F00ADDA08 /* navigationBar.png in Resources */ = {isa = PBXBuildFile; fileRef = C34F87B31AE9F01F00ADDA08 /* navigationBar.png */; };
+		C34F87B61AE9F02C00ADDA08 /* mortgage.png in Resources */ = {isa = PBXBuildFile; fileRef = C34F87B51AE9F02C00ADDA08 /* mortgage.png */; };
+		C34F87B81AE9F03400ADDA08 /* PropertyManagement.png in Resources */ = {isa = PBXBuildFile; fileRef = C34F87B71AE9F03400ADDA08 /* PropertyManagement.png */; };
+		C34F87BA1AE9F03B00ADDA08 /* tradeFinance.png in Resources */ = {isa = PBXBuildFile; fileRef = C34F87B91AE9F03B00ADDA08 /* tradeFinance.png */; };
+		C34F87BC1AE9F04F00ADDA08 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C34F87BB1AE9F04F00ADDA08 /* home.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +73,12 @@
 		C34F87921AE8D72200ADDA08 /* pdfView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pdfView.h; sourceTree = "<group>"; };
 		C34F87931AE8D72200ADDA08 /* pdfView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pdfView.m; sourceTree = "<group>"; };
 		C34F87991AE8F07300ADDA08 /* HLB Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HLB Logo.png"; sourceTree = "<group>"; };
+		C34F87B11AE9F01100ADDA08 /* log_out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = log_out.png; sourceTree = "<group>"; };
+		C34F87B31AE9F01F00ADDA08 /* navigationBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBar.png; sourceTree = "<group>"; };
+		C34F87B51AE9F02C00ADDA08 /* mortgage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mortgage.png; sourceTree = "<group>"; };
+		C34F87B71AE9F03400ADDA08 /* PropertyManagement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PropertyManagement.png; sourceTree = "<group>"; };
+		C34F87B91AE9F03B00ADDA08 /* tradeFinance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tradeFinance.png; sourceTree = "<group>"; };
+		C34F87BB1AE9F04F00ADDA08 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +120,7 @@
 		6A9324CA1AE48CFA00C93BFF /* DocufloMBL */ = {
 			isa = PBXGroup;
 			children = (
-				C34F87991AE8F07300ADDA08 /* HLB Logo.png */,
+				C34F87B01AE9EFF900ADDA08 /* Image */,
 				6A9324CF1AE48CFA00C93BFF /* AppDelegate.h */,
 				6A9324D01AE48CFA00C93BFF /* AppDelegate.m */,
 				6A9324D21AE48CFA00C93BFF /* ViewController.h */,
@@ -116,10 +128,6 @@
 				6A33646A1AE9D11700814897 /* Default-Landscape~ipad.png */,
 				6A33646B1AE9D11700814897 /* DocumentViewing.h */,
 				6A33646C1AE9D11700814897 /* DocumentViewing.m */,
-				6A33646D1AE9D11700814897 /* HLB Logo.png */,
-				6A33646E1AE9D11700814897 /* hll.jpg */,
-				6A33646F1AE9D11700814897 /* hlp.png */,
-				6A3364701AE9D11700814897 /* ipad_bg_4.jpg */,
 				6A3364711AE9D11700814897 /* Mortage.h */,
 				6A3364721AE9D11700814897 /* Mortage.m */,
 				6A3364731AE9D11700814897 /* PropertyManagement.h */,
@@ -160,6 +168,24 @@
 				6A9324E61AE48CFA00C93BFF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C34F87B01AE9EFF900ADDA08 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C34F87B91AE9F03B00ADDA08 /* tradeFinance.png */,
+				C34F87BB1AE9F04F00ADDA08 /* home.png */,
+				C34F87B71AE9F03400ADDA08 /* PropertyManagement.png */,
+				C34F87B51AE9F02C00ADDA08 /* mortgage.png */,
+				6A33646E1AE9D11700814897 /* hll.jpg */,
+				6A33646D1AE9D11700814897 /* HLB Logo.png */,
+				6A3364701AE9D11700814897 /* ipad_bg_4.jpg */,
+				6A33646F1AE9D11700814897 /* hlp.png */,
+				C34F87B31AE9F01F00ADDA08 /* navigationBar.png */,
+				C34F87991AE8F07300ADDA08 /* HLB Logo.png */,
+				C34F87B11AE9F01100ADDA08 /* log_out.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,12 +269,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A3364771AE9D11700814897 /* Default-Landscape~ipad.png in Resources */,
+				C34F87B61AE9F02C00ADDA08 /* mortgage.png in Resources */,
 				6A9324D71AE48CFA00C93BFF /* Main.storyboard in Resources */,
+				C34F87BA1AE9F03B00ADDA08 /* tradeFinance.png in Resources */,
 				6A9324DC1AE48CFA00C93BFF /* LaunchScreen.xib in Resources */,
+				C34F87B21AE9F01100ADDA08 /* log_out.png in Resources */,
 				6A3364791AE9D11700814897 /* HLB Logo.png in Resources */,
 				6A33647C1AE9D11700814897 /* ipad_bg_4.jpg in Resources */,
+				C34F87B81AE9F03400ADDA08 /* PropertyManagement.png in Resources */,
 				C34F879A1AE8F07300ADDA08 /* HLB Logo.png in Resources */,
 				6A33647B1AE9D11700814897 /* hlp.png in Resources */,
+				C34F87BC1AE9F04F00ADDA08 /* home.png in Resources */,
+				C34F87B41AE9F01F00ADDA08 /* navigationBar.png in Resources */,
 				6A33647A1AE9D11700814897 /* hll.jpg in Resources */,
 				6A9324D91AE48CFA00C93BFF /* Images.xcassets in Resources */,
 			);

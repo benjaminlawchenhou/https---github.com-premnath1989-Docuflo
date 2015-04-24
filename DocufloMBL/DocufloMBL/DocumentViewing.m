@@ -16,7 +16,7 @@
 @end
 
 @implementation DocumentViewing
-@synthesize txxxx,product,label;
+@synthesize tradeFinance,product,label;
 @synthesize mortage,PassWord,scrollView,webView,loginButton,logOut;
 
 
@@ -39,61 +39,60 @@
     UIGraphicsEndImageContext();
     
     self.view.backgroundColor = [UIColor colorWithPatternImage:image];
-    
-
-    
-    
+	
 //    UIWebView *webView = [[UIWebView alloc]init];
 //    NSString *urlString = @"http://www.sourcefreeze.com";
 //    NSURL *url = [NSURL URLWithString:urlString];
 //    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
 //    [webView loadRequest:urlRequest];
 //    [self.view addSubview:webView];
-//    
+ 
+	//Logo
+	UIView *LogoImg = [[UIView alloc] initWithFrame:CGRectMake(230, 240, 350, 131)];
+	LogoImg.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"HLB Logo.png"]];
+	[self.view addSubview:LogoImg];
     
     mortage= [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    mortage = [[UIButton alloc] initWithFrame:CGRectMake(150,305, 220,50)];
-    mortage.backgroundColor = [UIColor blackColor];
-    mortage.layer.borderColor = [UIColor blackColor].CGColor;
-    mortage.layer.borderWidth = 0.5f;
-    mortage.layer.cornerRadius = 10.0f;
+    mortage = [[UIButton alloc] initWithFrame:CGRectMake(150, 405, 150,200)];
+	UIImage *mortgageImg = [UIImage imageNamed:@"mortgage.png"];
+	[mortage setImage:mortgageImg forState:UIControlStateNormal];
     [mortage addTarget:self action:@selector(mortageView) forControlEvents:UIControlEventTouchUpInside];
     [mortage setTitle:@"mortage" forState:UIControlStateNormal];
     mortage.highlighted = YES;
     [mortage setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [self.view addSubview:mortage];
-    
-    
-    txxxx= [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    txxxx = [[UIButton alloc] initWithFrame:CGRectMake(150,505, 220,50)];
-    txxxx.backgroundColor = [UIColor blackColor];
-    txxxx.layer.borderColor = [UIColor blackColor].CGColor;
-    txxxx.layer.borderWidth = 0.5f;
-    txxxx.layer.cornerRadius = 10.0f;
-    [txxxx addTarget:self action:@selector(txxxView) forControlEvents:UIControlEventTouchUpInside];
-    [txxxx setTitle:@"xxxxx" forState:UIControlStateNormal];
-    txxxx.highlighted = YES;
-    [txxxx setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [self.view addSubview:txxxx];
+	
+    tradeFinance= [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    tradeFinance = [[UIButton alloc] initWithFrame:CGRectMake(325,405, 150,200)];
+	UIImage *TradeImg = [UIImage imageNamed:@"tradeFinance.png"];
+	[tradeFinance setImage:TradeImg forState:UIControlStateNormal];
+    [tradeFinance addTarget:self action:@selector(txxxView) forControlEvents:UIControlEventTouchUpInside];
+    [tradeFinance setTitle:@"xxxxx" forState:UIControlStateNormal];
+    tradeFinance.highlighted = YES;
+    [tradeFinance setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [self.view addSubview:tradeFinance];
     
     product= [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    product = [[UIButton alloc] initWithFrame:CGRectMake(150,705, 220,50)];
-    product.backgroundColor = [UIColor blackColor];
-    product.layer.borderColor = [UIColor blackColor].CGColor;
-    product.layer.borderWidth = 0.5f;
-    product.layer.cornerRadius = 10.0f;
+    product = [[UIButton alloc] initWithFrame:CGRectMake(500,405, 150,200)];
+	UIImage *productImg = [UIImage imageNamed:@"PropertyManagement.png"];
+	[product setImage:productImg forState:UIControlStateNormal];
     [product addTarget:self action:@selector(productView) forControlEvents:UIControlEventTouchUpInside];
     [product setTitle:@"Product" forState:UIControlStateNormal];
     product.highlighted = YES;
     [product setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [self.view addSubview:product];
-    
+	
+	
+	//Navigation Bar
+	
+	UIView *NavView = [[UIView alloc] initWithFrame:CGRectMake(10, 30, 750, 60)];
+	NavView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"navigationBar.png"]];
+	[self.view addSubview:NavView];
+	
     logOut= [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    logOut = [[UIButton alloc] initWithFrame:CGRectMake(600,30, 100,50)];
-    logOut.backgroundColor = [UIColor blackColor];
-    logOut.layer.borderColor = [UIColor blackColor].CGColor;
-    logOut.layer.borderWidth = 0.5f;
-    logOut.layer.cornerRadius = 10.0f;
+    logOut = [[UIButton alloc] initWithFrame:CGRectMake(700,35, 50,50)];
+	UIImage *logoutImg = [UIImage imageNamed:@"log_out.png"];
+	[logOut setImage:logoutImg forState:UIControlStateNormal];
     [logOut addTarget:self action:@selector(LogOut) forControlEvents:UIControlEventTouchUpInside];
     [logOut setTitle:@"Log Out" forState:UIControlStateNormal];
     logOut.highlighted = YES;

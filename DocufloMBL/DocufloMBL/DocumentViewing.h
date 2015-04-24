@@ -28,7 +28,7 @@
 @property(nonatomic,retain)UIWebView *webView;
 @property(nonatomic,retain)UITextField *UserName;
 @property(nonatomic,retain)UITextField *PassWord;
-@property(nonatomic,retain)UIButton *product,*mortage,*txxxx, *logOut;
+@property(nonatomic,retain)UIButton *product,*mortage,*tradeFinance, *logOut;
 @property(nonatomic,copy)UILabel *label;
 -(void) Login:(NSString *)username :(NSString *)password;
 
