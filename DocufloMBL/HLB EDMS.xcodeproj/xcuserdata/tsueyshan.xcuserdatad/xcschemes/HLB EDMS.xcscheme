@@ -17,21 +17,7 @@
                BlueprintIdentifier = "6A9324C71AE48CFA00C93BFF"
                BuildableName = "DocufloMBL.app"
                BlueprintName = "DocufloMBL"
-               ReferencedContainer = "container:DocufloMBL.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6A9324E01AE48CFA00C93BFF"
-               BuildableName = "DocufloMBLTests.xctest"
-               BlueprintName = "DocufloMBLTests"
-               ReferencedContainer = "container:DocufloMBL.xcodeproj">
+               ReferencedContainer = "container:HLB EDMS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,16 +28,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6A9324E01AE48CFA00C93BFF"
-               BuildableName = "DocufloMBLTests.xctest"
-               BlueprintName = "DocufloMBLTests"
-               ReferencedContainer = "container:DocufloMBL.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -59,7 +35,7 @@
             BlueprintIdentifier = "6A9324C71AE48CFA00C93BFF"
             BuildableName = "DocufloMBL.app"
             BlueprintName = "DocufloMBL"
-            ReferencedContainer = "container:DocufloMBL.xcodeproj">
+            ReferencedContainer = "container:HLB EDMS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -79,7 +55,7 @@
             BlueprintIdentifier = "6A9324C71AE48CFA00C93BFF"
             BuildableName = "DocufloMBL.app"
             BlueprintName = "DocufloMBL"
-            ReferencedContainer = "container:DocufloMBL.xcodeproj">
+            ReferencedContainer = "container:HLB EDMS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -98,7 +74,7 @@
             BlueprintIdentifier = "6A9324C71AE48CFA00C93BFF"
             BuildableName = "DocufloMBL.app"
             BlueprintName = "DocufloMBL"
-            ReferencedContainer = "container:DocufloMBL.xcodeproj">
+            ReferencedContainer = "container:HLB EDMS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
